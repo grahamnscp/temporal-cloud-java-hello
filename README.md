@@ -15,7 +15,9 @@ mvn dependency:copy-dependencies
 ```
 
 ## Start the common sample worker
+```
 java hellosample.HelloSampleWorker
+```
 
 ## Run samples
 ```
