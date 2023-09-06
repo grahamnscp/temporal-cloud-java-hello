@@ -1,0 +1,14 @@
+# direnv .envrc
+
+export CLASSPATH="./target/dependency/*:./target/hellosamples-1.0.jar"
+
+# Temporal Cloud connection
+export TEMPORAL_HOST_URL="my-ns.abcd0.tmprl.cloud:7233"
+export TEMPORAL_NAMESPACE="my-ns.abcd0"
+
+# Temporal Client cert
+export TEMPORAL_TLS_CERT="~/.temporal/tclient-cert.pem"
+export TEMPORAL_TLS_KEY="~/.temporal/tclient-cert.key"
+
+export TASK_QUEUE="Hello"
+
