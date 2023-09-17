@@ -30,6 +30,11 @@
       <artifactId>slf4j-nop</artifactId>
       <version>${version.slf4j}</version>
     </dependency>
+    <dependency>
+      <groupId>org.rapidoid</groupId>
+      <artifactId>rapidoid-quick</artifactId>
+      <version>5.5.5</version>
+    </dependency>
   </dependencies>
 
   <build>

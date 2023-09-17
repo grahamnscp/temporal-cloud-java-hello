@@ -14,11 +14,12 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-./.vscode
+.vscode
 
 .DS_Store
 */.DS_Store
 .envrc
 save
+target
 
 notes.txt

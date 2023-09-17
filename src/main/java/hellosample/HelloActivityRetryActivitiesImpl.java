@@ -6,9 +6,8 @@ public class HelloActivityRetryActivitiesImpl implements HelloActivityRetryActiv
   private long lastInvocationTime;
 
   /**
-   * Our activity implementation simulates a failure 3 times. Given our previously
-   * set
-   * RetryOptions, our workflow is going to retry our activity execution.
+   * Our activity implementation simulates a failure 3 times. 
+   * Given the set RetryOptions, our workflow is going to retry our activity execution.
    */
   @Override
   public synchronized String activityRetryGreeting(String greeting, String name) {

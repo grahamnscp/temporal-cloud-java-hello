@@ -1,5 +1,6 @@
 # direnv .envrc
 
+export JAVA_HOME="/Library/Java/JavaVirtualMachines//openjdk.jdk/Contents/Home"
 export CLASSPATH="./target/dependency/*:./target/hellosamples-1.0.jar"
 
 # Temporal Cloud connection
